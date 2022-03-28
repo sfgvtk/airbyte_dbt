@@ -1,6 +1,12 @@
 
 version: 2
 
+sources:
+  - name: public
+    tables:
+      - name: user
+      - name: order
+
 models:
   - name: my_first_dbt_model
     description: "A starter dbt model"
