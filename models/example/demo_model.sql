@@ -3,7 +3,7 @@
 with source_user as (
 
     select *
-    from {{ source('public', 'user') }}
+    from {{ source('a_dest', 'user') }}
 
 )
 
