@@ -2,7 +2,7 @@
 version: 2
 
 sources:
-  - name: public
+  - name: a_dest
     tables:
       - name: user
       - name: order
